@@ -16,7 +16,6 @@ echo -e "\nStart connectors loading"
 CONNECTORS=(
   'book.sink.json'
   'book.sink.streaming.json'
-  'book.source.json'
 )
 
 for connector in "${CONNECTORS[@]}"

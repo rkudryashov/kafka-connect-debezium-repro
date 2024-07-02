@@ -68,5 +68,3 @@ services:
       KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       # other
       KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE: false
-    volumes:
-      - ./misc/kafka_data:/bitnami
